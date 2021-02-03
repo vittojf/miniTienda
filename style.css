@@ -1,0 +1,131 @@
+
+
+.whastapp{
+  transition: all 250ms;
+}
+.whastapp:hover{
+opacity: 0.75;
+}
+
+/*
+header{
+
+    background: url('img/4066.jpg') no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+
+
+}
+*/
+
+.card-transparent {
+  background: transparent !important;
+}
+
+.bg-white{
+background:white;
+}
+
+  .mt-10{
+margin-top: 10%;
+  }
+.bg-aque{
+    background: #048f91;
+}
+
+.bg-b{
+    background: #282d35 !important;
+}
+.btn-aque {
+    color: #000;
+    background-color: #048f91;
+    border-color:  #048f91;
+  }
+  .btn-aque:hover {
+    color: #000;
+    background-color: #047779;
+    border-color: #047779;
+  }
+
+.navbar-blu {
+    background: #048f91;
+}
+
+.ms-10{
+margin-left: 15%;
+}
+
+.me-10{
+    margin-right:20%;
+}
+
+
+.vacio{
+    width: 100%;
+    height: 500px;
+}
+
+
+.textures{
+    right: 0;
+opacity: 15%;
+
+}
+.card-custom {
+    overflow: hidden;
+    min-height: 350px;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+  }
+
+
+
+  .card-custom-img {
+    height: 100px;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-color: inherit;
+  }
+
+  /* First border-left-width setting is a fallback */
+  .card-custom-img::after {
+    position: absolute;
+    content: '';
+    top: 161px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-top-width: 40px;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 545px;
+    border-left-width: calc(575px - 5vw);
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: inherit;
+  }
+
+  .card-custom-avatar img {
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+    position: absolute;
+    top: 100px;
+    left: 1.25rem;
+    width: 100px;
+    height: 100px;
+  }
+
+
+
+
+@font-face {
+    font-family: "Ageo";
+    src: url("font/AgeoPersonalUse-Medium.otf");
+  }
+@font-face{
+    font-family: "Calibri bold";
+    src: url("font/calibrib.ttf")
+}
